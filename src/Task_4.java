@@ -1,5 +1,9 @@
 import java.util.Scanner;
 
+/*
+* Дано трехзначное число. Вывести число, полученное при прочтении
+* исходного числа справа налево.
+* */
 public class Task_4 {
     static void reversNumber(String str){
         char[] chars = str.toCharArray();
